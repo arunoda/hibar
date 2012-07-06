@@ -1,0 +1,43 @@
+#pageList {
+	width: 200px;
+	float: left;
+	margin-top: 12px;
+	padding: 0px 20px 0px 0px;
+}
+
+#pageList ul {
+	list-style-type: none;
+	padding: 0px ;
+}
+
+#pageList ul li {
+	padding: 3px 0px 3px 5px;
+}
+
+#pageList ul li:hover {
+	background-color: #FFD5E5;
+	color: white;
+}
+
+#pageList ul li a {
+	color: #333;
+}
+
+#pageList ul li a:hover {
+	text-decoration: none;
+}
+
+#pageList .selected {
+
+	border-left: 7px solid #d40055;
+	padding-left: 5px;
+}
+
+#page-title {
+	color: #d40055;
+}
+
+#page {
+	width: 650px;
+	float: left;
+}

@@ -1,0 +1,184 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	margin: 0px;
+	text-align: center;
+	padding: 0px 20px 0px 20px;
+	border-top: 4px solid #333;
+}
+
+body, div, a, input, select, button, textarea {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	color: #333333;
+}
+
+a {
+	text-decoration: none;
+	color: #d40055;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img{
+	border: 0px;
+	box-shadow: 0 0px 5px #cccccc;
+	border-radius: 5px;
+    padding: 2px;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: normal;
+}
+
+
+#layout {
+	width: 930px;
+	margin: auto;
+	text-align: left;
+}
+
+#heading {
+	margin: 20px 0px 0px 0px;
+	position: relative;
+	height: 50px;
+	padding: 0px 0px 20px 0px;
+	border-bottom: 1px solid #cccccc;
+}
+
+#heading #logo {
+	float: left;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 40px;
+}
+
+#logo a {
+    font-size: 40px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#heading #logo #logo_docs {
+	color: #d40055;
+}
+
+.site-links {
+	color: #d40055;
+	font-size: 40px;
+}
+
+#heading #links {
+	position: absolute;
+	top: 20px;
+	right: 0px;
+}
+
+#heading #links img {
+
+	box-shadow: 0 0px 0px #cccccc;
+	border-radius: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+#content {
+	margin: 20px 0px 0px;
+}
+
+#footer {
+	margin: 30px 0px 0px 0px;
+	padding: 10px 0px 10px 0px;
+	border-top: 1px solid #dddddd;
+	text-align: center;
+	font-size: 10px;
+}
+
+#footer a {
+	font-size: 10px;
+}
+
+.post {
+	margin: 0px 20px 20px 0px;
+	width: 265px;
+	float: left;
+	border-radius: 3px;
+    padding: 10px;
+    border: 1px solid #eee;
+}
+
+.post-title {
+	margin: 0px 0px 8px 0px;
+	line-height: 20px;
+	font-size: 20px;
+}
+
+.post-image{
+	width: 260px;
+	box-shadow: 0 0px 0px #cccccc;
+	border-radius: 0px;
+    margin: 10px 0px 10px 0px;
+}
+
+.post-date {
+	font-size: 11px;
+	color: #666;
+}
+
+.post-content {
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+#side-bar {
+	width: 200px;
+	float: left;
+	margin: 30px 0px 0px 0px;
+}
+
+#side-bar #user-name{
+	font-size: 12px;
+	margin: 5px 0px 0px 0px;
+}
+
+#side-bar #tags {
+
+	margin: 20px 0px 0px 0px;
+}
+
+#side-bar #date {
+	font-size: 11px;
+}
+
+#page-title {
+	margin-top: 0px;
+	padding-top: 0px;
+	font-size: 30px;
+}
+
+#page {
+	margin-top: 20px;
+	width: 700px;
+	float: left;
+	padding-left: 20px;
+	border-left: 1px dashed #ddd;
+}
+
+.tag {
+	font-size: 12px;
+    padding: 2px 6px 2px 6px;
+    color: white;
+    line-height: 24px;
+}
+
+.mvc { background-color: #008080}
+.php { background-color: #aa00d4}
+.js { background-color: #2d5016}
+.jekyll { background-color: #aa0088}
+.github { background-color: #8b4513}
+.codeigniter { background-color: #7b4513}
+
