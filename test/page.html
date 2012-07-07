@@ -20,11 +20,8 @@
 		$(function() {
 
 			var b = new HiBar(32323224);
-			var options = {
-				'open-text': 'HELLO'
-			};
-			b.init('wanna be a super star?', 'click here', 'http://google.com/aa', options);
-
+			b.set('open-text', 'HELLO');
+			b.init('wanna be a super star?', 'click here', 'http://google.com/aa', {'cookie-life': 4});
 		});
 	</script>
 
