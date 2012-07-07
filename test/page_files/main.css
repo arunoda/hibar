@@ -5,6 +5,7 @@ body {
 	text-align: center;
 	padding: 0px 20px 0px 20px;
 	border-top: 4px solid #333;
+	background-color: #ddd;
 }
 
 body, div, a, input, select, button, textarea {

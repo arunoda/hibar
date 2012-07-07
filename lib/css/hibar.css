@@ -1,16 +1,17 @@
-#hi-bar {
+		#hi-bar {
 			position: fixed;
 			top: 0px;
 			left: 0px;
 			right: 0px;
-
 			display: none;
+			z-index: 2147483000;
 		}
 
 		#hi-bar-content {
 
 			background-color: #EB593C;
 			padding: 8px 0px 8px 0px;
+			border-bottom: 3px solid #fff;
 			box-shadow: 0 0px 5px #333;
 			color: white;
 			font-size: 14px;
