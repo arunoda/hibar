@@ -19,7 +19,8 @@
 			text-align: center;
 		}
 
-		#hi-bar a {
+		#hi-bar-link {
+			outline: 0px;
 			color: #ddd;
 			padding: 1px 10px 3px 10px;
 			font-size: 12px;
@@ -42,7 +43,7 @@
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-8 */
 		}
 
-		#hi-bar a:hover {
+		#hi-bar-link:hover {
 			box-shadow: 0 0px 4px #000;
 		}
 
